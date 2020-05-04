@@ -37,6 +37,7 @@ module.exports = {
   devServer: {
     port: 3001,
     contentBase: path.resolve(__dirname, 'public'),
+    host: '0.0.0.0',
     hot: true,
     historyApiFallback: true
   },
